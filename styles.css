@@ -1,0 +1,144 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 20px;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-nav a {
+  color: #e5e7eb;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 50px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.cta-button {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Hero Image */
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Info Section */
+.info-section {
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.info-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.info-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-item {
+  text-align: center;
+}
+
+.info-item img {
+  border: 2px solid #3882f6;
+  padding: 10px;
+  max-width: 150px;
+  height: auto;
+}
+
+.info-item p {
+  margin-top: 10px;
+  color: #1f2937;
+}
+
+/* Quote Section */
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 50px;
+  text-align: center;
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quote-section cite {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+  font-style: normal;
+  color: #1f2937;
+}
+
+/* Call to Action Section */
+.cta-section {
+  background-color: #3882f6;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.cta-container small {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
